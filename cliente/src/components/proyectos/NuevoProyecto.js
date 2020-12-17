@@ -36,7 +36,6 @@ const NuevoProyecto = () => {
             mostrarError();
             return;
         }
-        mostrarError(false);
 
         // Agregar al state
         agregarProyecto(proyecto);
